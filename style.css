@@ -1,0 +1,173 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+}
+#outer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+}
+#outer div{
+    width: 50%;
+    height: 100%;
+}
+#outer div:nth-child(2){
+    background-color: aqua;
+}
+
+
+#polka{
+    border: 1px solid black;
+    background-color: transparent;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    width: 100vw !important;
+    background:transparent;
+background-image:url(./gggrain\ \(1\).svg) ;
+background-size: cover;
+background-position: 0 0, 20px 20px;
+color: white;
+text-align: center;
+font-size: 110%;
+    
+      
+}
+#block{
+    height: 95vh;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    padding: 3%;
+    box-sizing: border-box;
+    border: 1px dashed black;
+    left: 45%;
+    border-radius: 50px;
+    transform: translate(-45%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur(5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );   
+}
+
+#namearea{
+    display: flex;
+    align-items: center;
+   width: 80vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+
+}
+.datetxt{
+    font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-size: 4vmax;
+  font-style: normal;
+}
+#datearea
+{    display: flex;
+    justify-content: space-between;
+    width: 12em;
+    margin-left: -20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    align-items: center;
+}
+.divarea{
+    width: 50%;
+    height: 100%;
+}
+#text{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+  #balloon-container {
+    height: 100vh;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: opacity 500ms;
+    position: absolute;
+    top: 0%;
+  }
+  
+  .balloon {
+    height: 125px;
+    width: 105px;
+    border-radius: 75% 75% 70% 70%;
+    position: relative;
+  }
+ 
+  .balloon:after {
+      content: "▲";
+      text-align: center;
+      display: block;
+      position: absolute;
+      color: inherit;
+      top: 120px;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  .txt{
+    margin-bottom: 0% !important;
+    font-size: small;
+    margin-top: 0%;
+}
+.icons{
+    position: absolute;
+}
+.icons:nth-child(1){
+    top: 4%;
+    left: 13%;
+    rotate: 0deg;
+}
+.icons:nth-child(2){
+    top: 0%;
+    right: 10%;
+    rotate:0deg;
+
+}
+.name{
+    font-size: 4vmax;
+    font-family: "Noto Nastaliq Urdu", serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  margin-top: 0%;
+margin-bottom: 0%;
+text-shadow: 1px 0px 3px  rgb(255, 247, 4);
+}
+  @keyframes float {
+    from {transform: translateY(100vh);
+    opacity: 1;}
+    to {transform: translateY(-300vh);
+    opacity: 0;}
+  }
+
+  .heading{
+    
+        font-family: "Libre Caslon Text", serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 2vmax;
+
+      
+      
+  }
